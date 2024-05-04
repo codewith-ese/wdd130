@@ -1,8 +1,0 @@
-Prepare
-Validation means to check the HTML or CSS code provided to the validator tool and compare it with 
-the rules of the accompanying doctype and report on the possible errors, warnings, and other info 
-to consider. In this class, we will use the Web Developer browser extension tool to 
-drive our HTML and CSS validation checks which you were asked to install as part of the course setup.
-
-To aid our development cycle and reviews, we will use a browser extension named Web Developer.
- This extension provides access to some endorsed validation and page checking tools including
