@@ -1,0 +1,35 @@
+
+
+.callout {
+    max-width: 500px;
+    margin: 10px;
+    border: 1px solid rgba(0,0,0,.1);
+    padding: 18px;
+    background-color: rgb(7, 66, 114);
+    color: #fff;
+	
+}
+
+.callout img {
+    float: right;
+    margin: 0 0 10px 15px;
+    padding: 3px;
+    background-color: aliceblue;
+    width: 100px;
+    height: auto;
+}
+
+blockquote {
+    margin: 0;	
+}
+
+/*   display, top border, top padding, 
+text alignment, size of font */
+cite {
+    display: block;
+	text-align: right;
+    border-top: 2px dotted #fff;
+    padding-top: 5px;
+    font-size: smaller;
+
+}
