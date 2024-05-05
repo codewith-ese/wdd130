@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=font-name&family=optional-2nd-font-name&display=swap');
 
+
+
 body {
     font-family: var(--paragraph-font);
     max-width: 960;
@@ -7,18 +9,18 @@ body {
 }
 
 :root {
-    --primary-color: #XXXXXX;
-    --secondary-color: #XXXXXX;
-    --accent1-color: #XXXXXX;
-    --accent2-color: #XXXXXX;
+    --primary-color: #12130f;
+    --secondary-color: #5b9279;
+    --accent1-color: #8f8073;
+    --accent2-color: #eae6e5;
   
     --heading-font: '______', serif;
     --paragraph-font: '______', serif;
   
-    --nav-background-color: #XXXXXX;
-    --nav-link-color: #XXXXXX;
-    --nav-hover-link-color: #XXXXXX;
-    --nav-hover-background-color: #XXXXXX;
+    --nav-background-color: #eae6e5;
+    --nav-link-color: #8fcb9b;
+    --nav-hover-link-color: #12130f;
+    --nav-hover-background-color: #5b9279;
   }
 
 
