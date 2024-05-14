@@ -74,6 +74,11 @@ p {
     padding: 25px;
 }
 
+.hero {
+    position: relative;
+}
+
+
 .hero img {
     display: block;
     width: 100%;
@@ -82,13 +87,13 @@ p {
 
 main h1 {
     position: absolute;
-    top: 260px;
+    top: 40px;
     left: 70px;
     color: rgb(235, 240, 245);
-    font-size: 35px;
+    font-size: 30px;
     margin: 1rem;
     background-color: rgba(0, 0, 0, 0.59);
-    padding: 5px 300px 5px 300px;
+    padding: 5px 200px 5px 200px;
 
 }
 
@@ -97,8 +102,8 @@ article {
     width: 600px;
     height: auto;
     position: absolute;
-    top: 320px;
-    left: 250px;
+    top: 90px;
+    left: 100px;
     margin: 1rem;
     color: aliceblue;
 
