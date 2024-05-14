@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=font-name&family=optional-2nd-font-name&display=swap');
+
+body {
+    font-family: var(--paragraph-font);
+    max-width: 960;
+    padding: 20px;
+}
+
+:root {
+    --primary-color: #12130f;
+    --secondary-color: #5b9279;
+    --accent1-color: #8f8073;
+    --accent2-color: #eae6e5;
+  
+    --heading-font: '______', serif;
+    --paragraph-font: '______', serif;
+  
+    --nav-background-color: #eae6e5;
+    --nav-link-color: #8fcb9b;
+    --nav-hover-link-color: #12130f;
+    --nav-hover-background-color: #5b9279;
+  }
+
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--heading-font);
+    color: var(--primary-color);
+
+}
+
+
+header {
+    padding: 0 0 5px 50px;
+}
+
+section img {
+    width: 400px;
+    height: auto;
+    border: 1px solid steelblue;
+    padding: 2px;
+    box-shadow: 0 0 30px gray;
+}
+
+h2 {
+    color: steelblue;
+}
+
+
+nav {
+  
+    font-size: 1.2rem;
+    display: flex;
+
+}
+
+nav a {
+    display: block;
+    color: var(--nav-link-color);
+    text-decoration: none;
+    padding: 1rem;
+}
+
+nav a:link, nav a:visited {
+    color: var(--nav-hover-link-color);
+
+}
+
+main {
+    max-width: 900px;  
+    padding: 0 0 5px 50px;
+}
+
+p {
+    padding: 25px;
+}
+
+.hero img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+main h1 {
+    position: absolute;
+    top: 260px;
+    left: 70px;
+    color: rgb(235, 240, 245);
+    font-size: 35px;
+    margin: 1rem;
+    background-color: rgba(0, 0, 0, 0.59);
+    padding: 5px 300px 5px 300px;
+
+}
+
+article {
+    background-color: rgba(10, 7, 77, 0.819);
+    width: 600px;
+    height: auto;
+    position: absolute;
+    top: 320px;
+    left: 250px;
+    margin: 1rem;
+    color: aliceblue;
+
+}
+
+.hero article img {
+    width: 100px;
+    height: auto;
+    border: 1px solid steelblue;
+    float: right;
+    margin: 1rem;
+    padding: 4px;
+}
+
+.box {
+    margin: 1rem;
+    border: 1px solid rgba(0, 0, 0, .1);
+    padding: 1rem;
+    background-color: #ddd;
+    color: #000;
+}
