@@ -292,5 +292,7 @@ nav {
 .history-header {
     display: block;
     text-align: center;
+    padding: 10px;
+    background-color: steelblue;
 }
 
