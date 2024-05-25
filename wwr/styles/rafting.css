@@ -94,7 +94,8 @@ nav a:link, nav a:visited {
 	list-style: none;
     color: #fff;
     justify-content: space-evenly;
-    align-items: center;
+    
+
     
 }
 
@@ -103,14 +104,17 @@ nav a:link, nav a:visited {
     color: #fff;
 	font-weight: 700;
     font-size: 1.5rem;
+    
+
 
 }
 
-.navigation a:link {
+.navigation a {
 	display: flex;
 	color: navy;
 	padding: 20px;
 	text-decoration: none;
+    align-self: flex-end;
 }
 
 .navigation a:hover {
