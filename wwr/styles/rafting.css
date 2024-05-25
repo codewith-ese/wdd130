@@ -2,8 +2,9 @@
 
 body {
     font-family: var(--paragraph-font);
-    max-width: 900;
+    max-width: 960;
     padding: 0;
+
 }
 
 :root {
@@ -30,13 +31,15 @@ h1, h2, h3, h4, h5, h6 {
 
 
 header {
-    padding: 0 0 0 20px; 
-	margin: 1rem auto;
+    padding: 10px; 
+	margin: 2rem 0;
 	display: grid;
-	grid-template-columns: 1fr;
-	border-bottom: 1px solid #0b0a0a;
+	grid-template-columns: repeat(2, 1fr);
+	border-bottom: 10px solid #0b0a0a64;
 	max-width: 960px;
     background-color: steelblue;
+    height: 120px;
+  
     
 }
 
@@ -61,17 +64,18 @@ h2 {
 
 
 nav {
-    padding: 1rem;
+    padding: 10px;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
     align-items: center;
     font-weight: 700;
+    color: #fff;
     
 }
 
  nav a {
     display: block;
-    color: var(--nav-link-color);
+    color: wheat;
     text-decoration: none;
     padding: 1rem;
 } 
@@ -89,20 +93,17 @@ nav a:link, nav a:visited {
 }
 
 .navigation li {
+	flex: 1 2 100%;
     color: #fff;
 	font-weight: 700;
     font-size: 1.5rem;
-    
-}
-.navigation li {
-	flex: 1 2 100%;
-    border: 29px solid black;
+    color: #eae6e5;
 }
 
-.navigation a {
-	display: block;
+.navigation a:link {
+	display: flex;
 	color: navy;
-	padding: 10px;
+	padding: 20px;
 	text-decoration: none;
 }
 
@@ -113,8 +114,8 @@ nav a:link, nav a:visited {
 }
 
 main {
-    max-width: 900px;  
-    padding: 0 0 5px 50px;
+    max-width: 960px;  
+    padding: 0 0 5px 5px;
 }
 main h1 {
     position: absolute;
@@ -132,7 +133,6 @@ p {
 
 .hero {
     position: relative;
-    border: 2px solid slateblue;
     padding-top: 10px;
     padding: 10px 40px 10px 40px;
 }
@@ -185,7 +185,7 @@ h1 {
 }
 
 header, .grid, footer {
-    max-width: 1000px;
+    max-width: 960px;
     margin: 0 auto;
 }
 
@@ -197,7 +197,10 @@ header, .grid, footer {
 .grid {
     display: grid;
     align-items: center;
-    border: 2px solid gold;
+    background-color: #ddd;
+    box-shadow: 0 0 30px gray;
+
+   
 }
 
 .logo-box {
@@ -259,3 +262,30 @@ nav {
     width: 100px;
     height: 130px;
 }
+
+.footer-grid {
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+    grid-gap: 20px;
+    padding:  20px;
+}
+
+.footer-grid-item {
+    border: 1px solid black;
+    padding: 2px;
+    font-size: 20px;
+    text-align: center;
+}
+
+
+.footer-grid-item p {
+    display: block;
+    padding: 2px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.footer-grid-item img {
+    width: 40px;
+}
+
