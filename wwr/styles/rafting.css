@@ -255,12 +255,12 @@ nav {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     grid-gap: 5px;
-    padding: 10px;
+    padding: 5px;
 }
 
 .adventure_class img {
     width: 100px;
-    height: 130px;
+    height: 100px;
 }
 
 .footer-grid {
@@ -287,5 +287,10 @@ nav {
 
 .footer-grid-item img {
     width: 40px;
+}
+
+.history-header {
+    display: block;
+    text-align: center;
 }
 
