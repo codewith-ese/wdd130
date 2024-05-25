@@ -67,11 +67,22 @@ h3 {
     text-align: center;
 }
 
-
 nav {
-    grid-column: 4/5; 
-    padding: 2px;
-    color: #fff;}
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-weight: 700;
+    color: #fff;
+    
+}
+
+ nav a {
+    display: block;
+    color: wheat;
+    text-decoration: none;
+    padding: 1rem;
+} 
 
 nav a:link, nav a:visited {
     color: var(--nav-hover-link-color);
@@ -209,6 +220,11 @@ header, .grid, footer {
 
 
 
+nav {
+    grid-column: 4/5; 
+    padding: 2px;
+    color: #fff;
+}
 
 .logo-box img {
     width: 110px;
