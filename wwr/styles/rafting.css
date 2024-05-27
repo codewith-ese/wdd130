@@ -263,9 +263,18 @@ nav {
 .adventure_class {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: auto;
     grid-gap: 5px;
     padding: 5px;
 }
+
+.adventure_class-item {
+    border: 1px solid black;
+    padding: 2px;
+    font-size: 20px;
+    text-align: center;
+}
+
 
 .adventure_class img {
     width: 100px;
