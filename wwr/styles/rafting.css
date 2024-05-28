@@ -1,7 +1,13 @@
-@import url('https://fonts.googleapis.com/css2?family=font-name&family=optional-2nd-font-name&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
 
 body {
-    font-family: var(--paragraph-font);
+    font-family: sans-serif;
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-style: normal;
+
+   /*  font-family: var(--paragraph-font); */
     max-width: 1200px;
     padding: 0;
     margin: auto;
@@ -68,6 +74,7 @@ h3 {
     text-align: center;
 }
 
+
 nav a:link, nav a:visited {
     color: var(--nav-hover-link-color);
 
@@ -91,10 +98,10 @@ nav .navigation a {
 	display: flex;
     color: #fff;
     font-weight: 700;
-	padding: 0 20px 5px 30px;
+	padding: 0 10px 10px 10px;
 	text-decoration: none;
     align-self: flex-end;
-    width: 80px;
+    width: 100px;
 }
 
 .navigation a:hover {
@@ -389,13 +396,7 @@ h2 {
 }
 
 /* Contact form CSS style stars here */
-/*
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
- */
+
 /* form CSS starts here */
 form {
     width: 550px;
@@ -422,12 +423,12 @@ legend {
 }
 
 label, input, button, select, textarea {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+   font-family: "Open Sans", sans-serif roboto;
 }
 
 label {
     text-align: left;
-    padding-right: 1rem;
+    padding-right: .4rem;
 }
 
 input, select, textarea {
