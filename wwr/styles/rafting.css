@@ -531,10 +531,17 @@ figcaption {
     border-bottom: 2px dotted steelblue;
 }
 
+.buy-now-grid h2{
+    margin: 0;
+    padding: 5px;
+
+}
+
 .buy-now-grid-item {
     padding: 2px;
     font-size: 20px;
     text-align: center;
+    margin: 0 auto;
 }
 
 
