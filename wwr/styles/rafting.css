@@ -579,7 +579,7 @@ figcaption {
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: auto;
     grid-gap: 2px;
-    padding: 2px 50px;
+    padding: 2px 20px;
     justify-content: center;
     align-items: center;
     margin-left: -0.5rem;
@@ -599,8 +599,8 @@ figcaption {
 
 .products-class img {
     width: 100%;
-    height: 190px;
-    border-radius: 10px;
+    height: 200px;
+    border-radius: 5px;
 }
 
 /*figcaption {
@@ -619,5 +619,47 @@ figcaption {
 .products-class h2 {
     border-top: 2px dotted steelblue;
 
+}
+
+
+/* product two in contact page style */
+
+.product-two {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    grid-gap: 10px;
+    padding: 5px;
+    justify-content: center;
+    align-items: center;
+    margin: 0 150px;
+}
+
+.product-two-item {
+   /* border: 1px solid black; */
+    padding: 5px;
+    font-size: 20px;
+    text-align: center;
+    padding-top: 0;
+}
+
+
+.product-two img {
+    width: 100%;
+    height: 200px;
+    border-radius: 20px;
+}
+
+figcaption {
+    font-size: 12px;
+    margin: 0 2px;
+    padding: 0;
+}
+
+.product-two-item p {
+    padding: 0;
+    font-size: 1rem;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
