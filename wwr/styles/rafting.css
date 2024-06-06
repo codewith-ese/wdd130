@@ -636,7 +636,7 @@ figcaption {
 .byu_now_button {
 
     margin:0 1rem 1rem;
-    background-color: steelblue;
+    background-color: rgb(12, 15, 17);
     color: #fff;
     border: none;
     border-radius: .5rem;
@@ -798,7 +798,7 @@ figcaption {
 /* Explore button */
 .button-exp {
     display: inline-block;
-    background-color: steelblue;
+    background-color: rgb(12, 15, 17);
    /* background-color: #353432; */
     color: wheat;
     padding: 8px 10px;
@@ -809,7 +809,7 @@ figcaption {
 }
 
 .button-exp:hover {
-    background: #c70958;
+    background: #cf0056;
     border: 4px solid black;
 }
 
