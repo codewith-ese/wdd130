@@ -461,7 +461,7 @@ legend {
 }
 
 label, input, button, select, textarea {
-   font-family: "Open Sans", sans-serif roboto;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 label {
@@ -686,7 +686,7 @@ figcaption {
     padding: 0;
     font-size: 1rem;
     text-align: center;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial;
 }
 
 .rafting-grid-item h3 {
@@ -739,7 +739,7 @@ figcaption {
     padding: 0;
     font-size: 0.3rem;
     text-align: center;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: Verdana, Geneva, Tahoma;
 }
 
 
@@ -791,7 +791,7 @@ figcaption {
     line-height: 25px;
     word-spacing: 0.1rem;
     letter-spacing: 0.2rem;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow';
 }
 
 /* Explore button */
@@ -853,7 +853,7 @@ figcaption {
     padding: 0;
     font-size: 1rem;
     text-align: center;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: Verdana, Geneva, Tahoma;
 }
 
 
