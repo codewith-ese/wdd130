@@ -147,8 +147,7 @@ p {
     position: relative;
     padding-top: 10px;
     padding: 0 0 10px 0;
-    
-   
+     
 }
 
 .hero img {
@@ -458,7 +457,7 @@ legend {
 }
 
 label, input, button, select, textarea {
-   font-family: "Open Sans", sans-serif roboto;
+   font-family: "Open Sans", sans-serif;
 }
 
 label {
